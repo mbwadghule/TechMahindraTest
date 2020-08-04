@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13057AEECA322C8B9792F181 /* Pods_Infosys_MachineTest_Infosys_MachineTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB13833E52F57A86856F870 /* Pods_Infosys_MachineTest_Infosys_MachineTestTests.framework */; };
 		DDD45A5B24D9F4CF0022F174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A5A24D9F4CF0022F174 /* AppDelegate.swift */; };
 		DDD45A5D24D9F4CF0022F174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A5C24D9F4CF0022F174 /* SceneDelegate.swift */; };
 		DDD45A5F24D9F4CF0022F174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A5E24D9F4CF0022F174 /* ViewController.swift */; };
-		DDD45A6224D9F4CF0022F174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD45A6024D9F4CF0022F174 /* Main.storyboard */; };
 		DDD45A6424D9F4D20022F174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD45A6324D9F4D20022F174 /* Assets.xcassets */; };
 		DDD45A6724D9F4D20022F174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD45A6524D9F4D20022F174 /* LaunchScreen.storyboard */; };
 		DDD45A7224D9F4D20022F174 /* Infosys_MachineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A7124D9F4D20022F174 /* Infosys_MachineTestTests.swift */; };
 		DDD45A7D24D9F4D20022F174 /* Infosys_MachineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A7C24D9F4D20022F174 /* Infosys_MachineTestUITests.swift */; };
+		DDD45A8C24D9F7A30022F174 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A8B24D9F7A30022F174 /* Extension.swift */; };
+		DDD45A8E24D9F83A0022F174 /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A8D24D9F83A0022F174 /* HTTPUtility.swift */; };
+		DDD45A9024D9F8640022F174 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A8F24D9F8640022F174 /* Reachability.swift */; };
+		DDD45A9424D9F9A70022F174 /* WebItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A9324D9F9A70022F174 /* WebItems.swift */; };
+		DDD45A9724D9FAA10022F174 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A9624D9FAA10022F174 /* ViewModel.swift */; };
+		DDD45A9A24D9FBAE0022F174 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A9924D9FBAE0022F174 /* Constant.swift */; };
+		DDD45A9C24D9FBEE0022F174 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A9B24D9FBEE0022F174 /* Common.swift */; };
+		DDD45A9E24D9FC2B0022F174 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A9D24D9FC2B0022F174 /* Activity.swift */; };
+		DDD45AA024D9FD980022F174 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A9F24D9FD970022F174 /* TableViewCell.swift */; };
+		E942FFB64F3AEF2C9CD8DE49 /* Pods_Infosys_MachineTest_Infosys_MachineTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0F70FA9609A526FC3B292 /* Pods_Infosys_MachineTest_Infosys_MachineTestUITests.framework */; };
+		EDD2C0B9F3903218B4131969 /* Pods_Infosys_MachineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0435F2E878FB91883F8D800 /* Pods_Infosys_MachineTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05F0F70FA9609A526FC3B292 /* Pods_Infosys_MachineTest_Infosys_MachineTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infosys_MachineTest_Infosys_MachineTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B62BFB7B5038FABCB8FEC6B /* Pods-Infosys-MachineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest.debug.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest/Pods-Infosys-MachineTest.debug.xcconfig"; sourceTree = "<group>"; };
+		248E0579ADEC46F921422B48 /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest-Infosys-MachineTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestUITests/Pods-Infosys-MachineTest-Infosys-MachineTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43A81F14799D93D4EF715AA0 /* Pods-Infosys-MachineTest-Infosys-MachineTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest-Infosys-MachineTestTests.release.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestTests/Pods-Infosys-MachineTest-Infosys-MachineTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		78F888FAA4C10A2AEA6E9F31 /* Pods-Infosys-MachineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest.release.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest/Pods-Infosys-MachineTest.release.xcconfig"; sourceTree = "<group>"; };
+		A0435F2E878FB91883F8D800 /* Pods_Infosys_MachineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infosys_MachineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E5BD477706F4C3C4AD60EC /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestUITests/Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DDD45A5724D9F4CF0022F174 /* Infosys-MachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infosys-MachineTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD45A5A24D9F4CF0022F174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD45A5C24D9F4CF0022F174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DDD45A5E24D9F4CF0022F174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDD45A6124D9F4CF0022F174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDD45A6324D9F4D20022F174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD45A6624D9F4D20022F174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD45A6824D9F4D20022F174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +66,17 @@
 		DDD45A7824D9F4D20022F174 /* Infosys-MachineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infosys-MachineTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD45A7C24D9F4D20022F174 /* Infosys_MachineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infosys_MachineTestUITests.swift; sourceTree = "<group>"; };
 		DDD45A7E24D9F4D20022F174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD45A8B24D9F7A30022F174 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DDD45A8D24D9F83A0022F174 /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
+		DDD45A8F24D9F8640022F174 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DDD45A9324D9F9A70022F174 /* WebItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebItems.swift; sourceTree = "<group>"; };
+		DDD45A9624D9FAA10022F174 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DDD45A9924D9FBAE0022F174 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DDD45A9B24D9FBEE0022F174 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		DDD45A9D24D9FC2B0022F174 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		DDD45A9F24D9FD970022F174 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F176E53A51D89682B7A1E58B /* Pods-Infosys-MachineTest-Infosys-MachineTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest-Infosys-MachineTestTests.debug.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestTests/Pods-Infosys-MachineTest-Infosys-MachineTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB13833E52F57A86856F870 /* Pods_Infosys_MachineTest_Infosys_MachineTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infosys_MachineTest_Infosys_MachineTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD2C0B9F3903218B4131969 /* Pods_Infosys_MachineTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13057AEECA322C8B9792F181 /* Pods_Infosys_MachineTest_Infosys_MachineTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E942FFB64F3AEF2C9CD8DE49 /* Pods_Infosys_MachineTest_Infosys_MachineTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		291BE4FB0C316D255CB8A9CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B62BFB7B5038FABCB8FEC6B /* Pods-Infosys-MachineTest.debug.xcconfig */,
+				78F888FAA4C10A2AEA6E9F31 /* Pods-Infosys-MachineTest.release.xcconfig */,
+				F176E53A51D89682B7A1E58B /* Pods-Infosys-MachineTest-Infosys-MachineTestTests.debug.xcconfig */,
+				43A81F14799D93D4EF715AA0 /* Pods-Infosys-MachineTest-Infosys-MachineTestTests.release.xcconfig */,
+				248E0579ADEC46F921422B48 /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.debug.xcconfig */,
+				A6E5BD477706F4C3C4AD60EC /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BD99074D078FF8C34D395C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0435F2E878FB91883F8D800 /* Pods_Infosys_MachineTest.framework */,
+				FDB13833E52F57A86856F870 /* Pods_Infosys_MachineTest_Infosys_MachineTestTests.framework */,
+				05F0F70FA9609A526FC3B292 /* Pods_Infosys_MachineTest_Infosys_MachineTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDD45A4E24D9F4CF0022F174 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				DDD45A7024D9F4D20022F174 /* Infosys-MachineTestTests */,
 				DDD45A7B24D9F4D20022F174 /* Infosys-MachineTestUITests */,
 				DDD45A5824D9F4CF0022F174 /* Products */,
+				291BE4FB0C316D255CB8A9CD /* Pods */,
+				4BD99074D078FF8C34D395C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +155,14 @@
 		DDD45A5924D9F4CF0022F174 /* Infosys-MachineTest */ = {
 			isa = PBXGroup;
 			children = (
+				DDD45A8B24D9F7A30022F174 /* Extension.swift */,
 				DDD45A5A24D9F4CF0022F174 /* AppDelegate.swift */,
 				DDD45A5C24D9F4CF0022F174 /* SceneDelegate.swift */,
-				DDD45A5E24D9F4CF0022F174 /* ViewController.swift */,
-				DDD45A6024D9F4CF0022F174 /* Main.storyboard */,
+				DDD45AA124DA00470022F174 /* View */,
+				DDD45A9524D9FA510022F174 /* ViewModel */,
+				DDD45A9224D9F92C0022F174 /* Model */,
+				DDD45A8A24D9F6D90022F174 /* Networking */,
+				DDD45A9824D9FB8A0022F174 /* Others */,
 				DDD45A6324D9F4D20022F174 /* Assets.xcassets */,
 				DDD45A6524D9F4D20022F174 /* LaunchScreen.storyboard */,
 				DDD45A6824D9F4D20022F174 /* Info.plist */,
@@ -128,6 +188,50 @@
 			path = "Infosys-MachineTestUITests";
 			sourceTree = "<group>";
 		};
+		DDD45A8A24D9F6D90022F174 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DDD45A8F24D9F8640022F174 /* Reachability.swift */,
+				DDD45A8D24D9F83A0022F174 /* HTTPUtility.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DDD45A9224D9F92C0022F174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDD45A9324D9F9A70022F174 /* WebItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDD45A9524D9FA510022F174 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDD45A9624D9FAA10022F174 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDD45A9824D9FB8A0022F174 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DDD45A9D24D9FC2B0022F174 /* Activity.swift */,
+				DDD45A9924D9FBAE0022F174 /* Constant.swift */,
+				DDD45A9B24D9FBEE0022F174 /* Common.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		DDD45AA124DA00470022F174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDD45A9F24D9FD970022F174 /* TableViewCell.swift */,
+				DDD45A5E24D9F4CF0022F174 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDD45A8124D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTest" */;
 			buildPhases = (
+				86C5709FDAE089AE151AD1DD /* [CP] Check Pods Manifest.lock */,
 				DDD45A5324D9F4CF0022F174 /* Sources */,
 				DDD45A5424D9F4CF0022F174 /* Frameworks */,
 				DDD45A5524D9F4CF0022F174 /* Resources */,
+				0A8E4CF932E9EBA437D0E23A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDD45A8424D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTestTests" */;
 			buildPhases = (
+				630B1FB6DD6F05D6D79B5F86 /* [CP] Check Pods Manifest.lock */,
 				DDD45A6924D9F4D20022F174 /* Sources */,
 				DDD45A6A24D9F4D20022F174 /* Frameworks */,
 				DDD45A6B24D9F4D20022F174 /* Resources */,
+				F7448C124AE1D7AE2631E6D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDD45A8724D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTestUITests" */;
 			buildPhases = (
+				2D429C802FC6F591EE293901 /* [CP] Check Pods Manifest.lock */,
 				DDD45A7424D9F4D20022F174 /* Sources */,
 				DDD45A7524D9F4D20022F174 /* Frameworks */,
 				DDD45A7624D9F4D20022F174 /* Resources */,
+				298B8674614CB8D2B8BBEEE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +344,6 @@
 			files = (
 				DDD45A6724D9F4D20022F174 /* LaunchScreen.storyboard in Resources */,
 				DDD45A6424D9F4D20022F174 /* Assets.xcassets in Resources */,
-				DDD45A6224D9F4CF0022F174 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +363,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A8E4CF932E9EBA437D0E23A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest/Pods-Infosys-MachineTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest/Pods-Infosys-MachineTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest/Pods-Infosys-MachineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298B8674614CB8D2B8BBEEE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestUITests/Pods-Infosys-MachineTest-Infosys-MachineTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestUITests/Pods-Infosys-MachineTest-Infosys-MachineTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestUITests/Pods-Infosys-MachineTest-Infosys-MachineTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D429C802FC6F591EE293901 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Infosys-MachineTest-Infosys-MachineTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630B1FB6DD6F05D6D79B5F86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Infosys-MachineTest-Infosys-MachineTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C5709FDAE089AE151AD1DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Infosys-MachineTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7448C124AE1D7AE2631E6D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestTests/Pods-Infosys-MachineTest-Infosys-MachineTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestTests/Pods-Infosys-MachineTest-Infosys-MachineTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestTests/Pods-Infosys-MachineTest-Infosys-MachineTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDD45A5324D9F4CF0022F174 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DDD45A5F24D9F4CF0022F174 /* ViewController.swift in Sources */,
+				DDD45A8E24D9F83A0022F174 /* HTTPUtility.swift in Sources */,
+				DDD45A9A24D9FBAE0022F174 /* Constant.swift in Sources */,
+				DDD45A9024D9F8640022F174 /* Reachability.swift in Sources */,
 				DDD45A5B24D9F4CF0022F174 /* AppDelegate.swift in Sources */,
 				DDD45A5D24D9F4CF0022F174 /* SceneDelegate.swift in Sources */,
+				DDD45A8C24D9F7A30022F174 /* Extension.swift in Sources */,
+				DDD45A9724D9FAA10022F174 /* ViewModel.swift in Sources */,
+				DDD45A9C24D9FBEE0022F174 /* Common.swift in Sources */,
+				DDD45AA024D9FD980022F174 /* TableViewCell.swift in Sources */,
+				DDD45A9E24D9FC2B0022F174 /* Activity.swift in Sources */,
+				DDD45A9424D9F9A70022F174 /* WebItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +535,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DDD45A6024D9F4CF0022F174 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DDD45A6124D9F4CF0022F174 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DDD45A6524D9F4D20022F174 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +662,7 @@
 		};
 		DDD45A8224D9F4D20022F174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B62BFB7B5038FABCB8FEC6B /* Pods-Infosys-MachineTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +681,7 @@
 		};
 		DDD45A8324D9F4D20022F174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F888FAA4C10A2AEA6E9F31 /* Pods-Infosys-MachineTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +700,7 @@
 		};
 		DDD45A8524D9F4D20022F174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F176E53A51D89682B7A1E58B /* Pods-Infosys-MachineTest-Infosys-MachineTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +723,7 @@
 		};
 		DDD45A8624D9F4D20022F174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A81F14799D93D4EF715AA0 /* Pods-Infosys-MachineTest-Infosys-MachineTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +746,7 @@
 		};
 		DDD45A8824D9F4D20022F174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248E0579ADEC46F921422B48 /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +767,7 @@
 		};
 		DDD45A8924D9F4D20022F174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E5BD477706F4C3C4AD60EC /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
