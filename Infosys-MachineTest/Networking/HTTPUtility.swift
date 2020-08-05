@@ -69,8 +69,8 @@ struct HTTPUtility {
                 }
             }
         }
-        //starting the download task
-        getImageFromUrl.resume()
+    
+    getImageFromUrl.resume()
     }
 }
 

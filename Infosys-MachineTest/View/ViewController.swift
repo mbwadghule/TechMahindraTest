@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
  }
 
-// MARK: - Table datasource and Delegate
+
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         VModel.getNumberOfRows()
@@ -41,7 +41,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return cell!
     }
 }
-// MARK: - Create and Set Constraints for table
+
 private extension ViewController {
     func loadViewComponents() {
         self.view.addSubview(tableView)

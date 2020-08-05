@@ -10,15 +10,14 @@ import Foundation
 
 class ViewModel {
     var httpUtility = HTTPUtility()
-    var canadaList: WebItems?
+    var itemList: WebItems?
 
     typealias ComplitionBlock = (WebItems, Bool) -> Void
     func getDataFromApi(apiUrl: String, complitionBlock:@escaping (ComplitionBlock)) {
         if Reachability.isConnectedToNetwork() {
-            // make api call
-            httpUtility.getApiData(requestUrl: Constants.apiString, resultType: WebItems.self) { canadaResponse in
-                self.canadaList = canadaResponse
-                complitionBlock(canadaResponse, true)
+            httpUtility.getApiData(requestUrl: Constants.apiString, resultType: WebItems.self) { Response in
+                self.itemList = Response
+                complitionBlock(Response, true)
             }
         }
         else {
@@ -26,7 +25,7 @@ class ViewModel {
         }
     }
     func getNumberOfRows() -> Int {
-         canadaList?.rows.count ?? 0
+         itemList?.rows.count ?? 0
     }
 }
 
