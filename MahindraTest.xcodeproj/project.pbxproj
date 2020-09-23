@@ -672,7 +672,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Augment-Deck-Technologies.Infosys-MachineTest";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Augment-Deck-Technologies.MahindraTest";
 				PRODUCT_NAME = MahindraTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,7 +692,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Augment-Deck-Technologies.Infosys-MachineTest";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Augment-Deck-Technologies.MahindraTest";
 				PRODUCT_NAME = MahindraTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
