@@ -1,14 +1,8 @@
-//
-//  Infosys_MachineTestUITests.swift
-//  Infosys-MachineTestUITests
-//
-//  Created by Augment Deck Technologies on 05/08/20.
-//  Copyright © 2020 Augment Deck Technologies. All rights reserved.
-//
+
 
 import XCTest
 
-class Infosys_MachineTestUITests: XCTestCase {
+class MahindraTestUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

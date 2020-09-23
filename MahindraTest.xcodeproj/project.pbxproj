@@ -13,8 +13,8 @@
 		DDD45A5F24D9F4CF0022F174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A5E24D9F4CF0022F174 /* ViewController.swift */; };
 		DDD45A6424D9F4D20022F174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD45A6324D9F4D20022F174 /* Assets.xcassets */; };
 		DDD45A6724D9F4D20022F174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD45A6524D9F4D20022F174 /* LaunchScreen.storyboard */; };
-		DDD45A7224D9F4D20022F174 /* Infosys_MachineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A7124D9F4D20022F174 /* Infosys_MachineTestTests.swift */; };
-		DDD45A7D24D9F4D20022F174 /* Infosys_MachineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A7C24D9F4D20022F174 /* Infosys_MachineTestUITests.swift */; };
+		DDD45A7224D9F4D20022F174 /* MahindraTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A7124D9F4D20022F174 /* MahindraTestTests.swift */; };
+		DDD45A7D24D9F4D20022F174 /* MahindraTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A7C24D9F4D20022F174 /* MahindraTestUITests.swift */; };
 		DDD45A8C24D9F7A30022F174 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A8B24D9F7A30022F174 /* Extension.swift */; };
 		DDD45A8E24D9F83A0022F174 /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A8D24D9F83A0022F174 /* HTTPUtility.swift */; };
 		DDD45A9024D9F8640022F174 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD45A8F24D9F8640022F174 /* Reachability.swift */; };
@@ -53,18 +53,18 @@
 		78F888FAA4C10A2AEA6E9F31 /* Pods-Infosys-MachineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest.release.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest/Pods-Infosys-MachineTest.release.xcconfig"; sourceTree = "<group>"; };
 		A0435F2E878FB91883F8D800 /* Pods_Infosys_MachineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infosys_MachineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E5BD477706F4C3C4AD60EC /* Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig"; path = "Target Support Files/Pods-Infosys-MachineTest-Infosys-MachineTestUITests/Pods-Infosys-MachineTest-Infosys-MachineTestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DDD45A5724D9F4CF0022F174 /* Infosys-MachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infosys-MachineTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD45A5724D9F4CF0022F174 /* MahindraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MahindraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD45A5A24D9F4CF0022F174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD45A5C24D9F4CF0022F174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DDD45A5E24D9F4CF0022F174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDD45A6324D9F4D20022F174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD45A6624D9F4D20022F174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD45A6824D9F4D20022F174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDD45A6D24D9F4D20022F174 /* Infosys-MachineTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infosys-MachineTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDD45A7124D9F4D20022F174 /* Infosys_MachineTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infosys_MachineTestTests.swift; sourceTree = "<group>"; };
+		DDD45A6D24D9F4D20022F174 /* MahindraTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahindraTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD45A7124D9F4D20022F174 /* MahindraTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahindraTestTests.swift; sourceTree = "<group>"; };
 		DDD45A7324D9F4D20022F174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDD45A7824D9F4D20022F174 /* Infosys-MachineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infosys-MachineTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDD45A7C24D9F4D20022F174 /* Infosys_MachineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infosys_MachineTestUITests.swift; sourceTree = "<group>"; };
+		DDD45A7824D9F4D20022F174 /* MahindraTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahindraTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD45A7C24D9F4D20022F174 /* MahindraTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahindraTestUITests.swift; sourceTree = "<group>"; };
 		DDD45A7E24D9F4D20022F174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD45A8B24D9F7A30022F174 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DDD45A8D24D9F83A0022F174 /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
@@ -133,9 +133,9 @@
 		DDD45A4E24D9F4CF0022F174 = {
 			isa = PBXGroup;
 			children = (
-				DDD45A5924D9F4CF0022F174 /* Infosys-MachineTest */,
-				DDD45A7024D9F4D20022F174 /* Infosys-MachineTestTests */,
-				DDD45A7B24D9F4D20022F174 /* Infosys-MachineTestUITests */,
+				DDD45A5924D9F4CF0022F174 /* MahindraTest */,
+				DDD45A7024D9F4D20022F174 /* MahindraTestTests */,
+				DDD45A7B24D9F4D20022F174 /* MahindraTestUITests */,
 				DDD45A5824D9F4CF0022F174 /* Products */,
 				291BE4FB0C316D255CB8A9CD /* Pods */,
 				4BD99074D078FF8C34D395C6 /* Frameworks */,
@@ -145,14 +145,14 @@
 		DDD45A5824D9F4CF0022F174 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDD45A5724D9F4CF0022F174 /* Infosys-MachineTest.app */,
-				DDD45A6D24D9F4D20022F174 /* Infosys-MachineTestTests.xctest */,
-				DDD45A7824D9F4D20022F174 /* Infosys-MachineTestUITests.xctest */,
+				DDD45A5724D9F4CF0022F174 /* MahindraTest.app */,
+				DDD45A6D24D9F4D20022F174 /* MahindraTestTests.xctest */,
+				DDD45A7824D9F4D20022F174 /* MahindraTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDD45A5924D9F4CF0022F174 /* Infosys-MachineTest */ = {
+		DDD45A5924D9F4CF0022F174 /* MahindraTest */ = {
 			isa = PBXGroup;
 			children = (
 				DDD45A8B24D9F7A30022F174 /* Extension.swift */,
@@ -167,25 +167,25 @@
 				DDD45A6524D9F4D20022F174 /* LaunchScreen.storyboard */,
 				DDD45A6824D9F4D20022F174 /* Info.plist */,
 			);
-			path = "Infosys-MachineTest";
+			path = MahindraTest;
 			sourceTree = "<group>";
 		};
-		DDD45A7024D9F4D20022F174 /* Infosys-MachineTestTests */ = {
+		DDD45A7024D9F4D20022F174 /* MahindraTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				DDD45A7124D9F4D20022F174 /* Infosys_MachineTestTests.swift */,
+				DDD45A7124D9F4D20022F174 /* MahindraTestTests.swift */,
 				DDD45A7324D9F4D20022F174 /* Info.plist */,
 			);
-			path = "Infosys-MachineTestTests";
+			path = MahindraTestTests;
 			sourceTree = "<group>";
 		};
-		DDD45A7B24D9F4D20022F174 /* Infosys-MachineTestUITests */ = {
+		DDD45A7B24D9F4D20022F174 /* MahindraTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DDD45A7C24D9F4D20022F174 /* Infosys_MachineTestUITests.swift */,
+				DDD45A7C24D9F4D20022F174 /* MahindraTestUITests.swift */,
 				DDD45A7E24D9F4D20022F174 /* Info.plist */,
 			);
-			path = "Infosys-MachineTestUITests";
+			path = MahindraTestUITests;
 			sourceTree = "<group>";
 		};
 		DDD45A8A24D9F6D90022F174 /* Networking */ = {
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDD45A5624D9F4CF0022F174 /* Infosys-MachineTest */ = {
+		DDD45A5624D9F4CF0022F174 /* MahindraTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDD45A8124D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTest" */;
+			buildConfigurationList = DDD45A8124D9F4D20022F174 /* Build configuration list for PBXNativeTarget "MahindraTest" */;
 			buildPhases = (
 				86C5709FDAE089AE151AD1DD /* [CP] Check Pods Manifest.lock */,
 				DDD45A5324D9F4CF0022F174 /* Sources */,
@@ -249,14 +249,14 @@
 			);
 			dependencies = (
 			);
-			name = "Infosys-MachineTest";
+			name = MahindraTest;
 			productName = "Infosys-MachineTest";
-			productReference = DDD45A5724D9F4CF0022F174 /* Infosys-MachineTest.app */;
+			productReference = DDD45A5724D9F4CF0022F174 /* MahindraTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DDD45A6C24D9F4D20022F174 /* Infosys-MachineTestTests */ = {
+		DDD45A6C24D9F4D20022F174 /* MahindraTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDD45A8424D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTestTests" */;
+			buildConfigurationList = DDD45A8424D9F4D20022F174 /* Build configuration list for PBXNativeTarget "MahindraTestTests" */;
 			buildPhases = (
 				630B1FB6DD6F05D6D79B5F86 /* [CP] Check Pods Manifest.lock */,
 				DDD45A6924D9F4D20022F174 /* Sources */,
@@ -269,14 +269,14 @@
 			dependencies = (
 				DDD45A6F24D9F4D20022F174 /* PBXTargetDependency */,
 			);
-			name = "Infosys-MachineTestTests";
+			name = MahindraTestTests;
 			productName = "Infosys-MachineTestTests";
-			productReference = DDD45A6D24D9F4D20022F174 /* Infosys-MachineTestTests.xctest */;
+			productReference = DDD45A6D24D9F4D20022F174 /* MahindraTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DDD45A7724D9F4D20022F174 /* Infosys-MachineTestUITests */ = {
+		DDD45A7724D9F4D20022F174 /* MahindraTestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDD45A8724D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTestUITests" */;
+			buildConfigurationList = DDD45A8724D9F4D20022F174 /* Build configuration list for PBXNativeTarget "MahindraTestUITests" */;
 			buildPhases = (
 				2D429C802FC6F591EE293901 /* [CP] Check Pods Manifest.lock */,
 				DDD45A7424D9F4D20022F174 /* Sources */,
@@ -289,9 +289,9 @@
 			dependencies = (
 				DDD45A7A24D9F4D20022F174 /* PBXTargetDependency */,
 			);
-			name = "Infosys-MachineTestUITests";
+			name = MahindraTestUITests;
 			productName = "Infosys-MachineTestUITests";
-			productReference = DDD45A7824D9F4D20022F174 /* Infosys-MachineTestUITests.xctest */;
+			productReference = DDD45A7824D9F4D20022F174 /* MahindraTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -317,7 +317,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDD45A5224D9F4CF0022F174 /* Build configuration list for PBXProject "Infosys-MachineTest" */;
+			buildConfigurationList = DDD45A5224D9F4CF0022F174 /* Build configuration list for PBXProject "MahindraTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -330,9 +330,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDD45A5624D9F4CF0022F174 /* Infosys-MachineTest */,
-				DDD45A6C24D9F4D20022F174 /* Infosys-MachineTestTests */,
-				DDD45A7724D9F4D20022F174 /* Infosys-MachineTestUITests */,
+				DDD45A5624D9F4CF0022F174 /* MahindraTest */,
+				DDD45A6C24D9F4D20022F174 /* MahindraTestTests */,
+				DDD45A7724D9F4D20022F174 /* MahindraTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -507,7 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD45A7224D9F4D20022F174 /* Infosys_MachineTestTests.swift in Sources */,
+				DDD45A7224D9F4D20022F174 /* MahindraTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD45A7D24D9F4D20022F174 /* Infosys_MachineTestUITests.swift in Sources */,
+				DDD45A7D24D9F4D20022F174 /* MahindraTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,12 +524,12 @@
 /* Begin PBXTargetDependency section */
 		DDD45A6F24D9F4D20022F174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DDD45A5624D9F4CF0022F174 /* Infosys-MachineTest */;
+			target = DDD45A5624D9F4CF0022F174 /* MahindraTest */;
 			targetProxy = DDD45A6E24D9F4D20022F174 /* PBXContainerItemProxy */;
 		};
 		DDD45A7A24D9F4D20022F174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DDD45A5624D9F4CF0022F174 /* Infosys-MachineTest */;
+			target = DDD45A5624D9F4CF0022F174 /* MahindraTest */;
 			targetProxy = DDD45A7924D9F4D20022F174 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -667,13 +667,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q4S9YC3845;
-				INFOPLIST_FILE = "Infosys-MachineTest/Info.plist";
+				INFOPLIST_FILE = MahindraTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Augment-Deck-Technologies.Infosys-MachineTest";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MahindraTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -686,13 +686,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q4S9YC3845;
-				INFOPLIST_FILE = "Infosys-MachineTest/Info.plist";
+				INFOPLIST_FILE = MahindraTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Augment-Deck-Technologies.Infosys-MachineTest";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MahindraTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -717,7 +717,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infosys-MachineTest.app/Infosys-MachineTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahindraTest.app/MahindraTest";
 			};
 			name = Debug;
 		};
@@ -740,7 +740,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infosys-MachineTest.app/Infosys-MachineTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahindraTest.app/MahindraTest";
 			};
 			name = Release;
 		};
@@ -789,7 +789,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDD45A5224D9F4CF0022F174 /* Build configuration list for PBXProject "Infosys-MachineTest" */ = {
+		DDD45A5224D9F4CF0022F174 /* Build configuration list for PBXProject "MahindraTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDD45A7F24D9F4D20022F174 /* Debug */,
@@ -798,7 +798,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDD45A8124D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTest" */ = {
+		DDD45A8124D9F4D20022F174 /* Build configuration list for PBXNativeTarget "MahindraTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDD45A8224D9F4D20022F174 /* Debug */,
@@ -807,7 +807,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDD45A8424D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTestTests" */ = {
+		DDD45A8424D9F4D20022F174 /* Build configuration list for PBXNativeTarget "MahindraTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDD45A8524D9F4D20022F174 /* Debug */,
@@ -816,7 +816,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDD45A8724D9F4D20022F174 /* Build configuration list for PBXNativeTarget "Infosys-MachineTestUITests" */ = {
+		DDD45A8724D9F4D20022F174 /* Build configuration list for PBXNativeTarget "MahindraTestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDD45A8824D9F4D20022F174 /* Debug */,

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Infosys-MachineTest.xcodeproj">
+      location = "group:/Users/augdeck/Desktop/MahindraTest/MahindraTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
