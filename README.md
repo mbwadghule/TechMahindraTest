@@ -28,5 +28,7 @@ added to the cells
 Additional Requirements
 • Style your code according to this style guide https://github.com/raywenderlich/swift- style-guide
 • Use programmatic auto layout using Layout Anchors to layout the cells in the app
+
 • Use the URLSession framework for your service calls
+
 • PleaseuseaTableViewasthecontainer
